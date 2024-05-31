@@ -19,7 +19,6 @@ public class Main {
         boolean answer = true;
         // 입력 데이터 n개의 대해 진행한다.
         for (int i = 0; i < n; i++) {
-            int left = 0, right = 0;
             char[] c = arr[i].toCharArray();
 
             for (int j = 0; j < c.length; j++) {
